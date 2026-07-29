@@ -1,0 +1,83 @@
+/* Shared styling for GitHub Pages deployment and mobile-friendly layout */
+:root {
+    --site-bg: #f7f7f7;
+    --card-bg: #ffffff;
+    --text-main: #181818;
+    --text-muted: #3d3d3d;
+    --accent: #0d6efd;
+    --border-soft: #dddddd;
+}
+
+body {
+    background: linear-gradient(180deg, #f0f2f5 0%, #fafafa 100%);
+    color: var(--text-main);
+    margin: 0;
+}
+
+.white-content {
+    background: transparent;
+}
+
+.content-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-soft);
+    border-radius: 14px;
+    padding: 1.5rem;
+    max-width: 900px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+    color: var(--text-muted);
+}
+
+.content-card p {
+    line-height: 1.7;
+}
+
+.site-footer {
+    background: #101010;
+    color: #f2f2f2;
+}
+
+.site-footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    white-space: normal;
+    max-width: 75%;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.site-image {
+    width: min(100%, 760px);
+    border-radius: 12px;
+}
+
+.site-image-wide {
+    width: min(100%, 920px);
+}
+
+@media (max-width: 768px) {
+    .hero-section .display-5 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+
+    .content-card {
+        padding: 1rem;
+    }
+
+    .footer-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
