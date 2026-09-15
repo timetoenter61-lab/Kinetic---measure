@@ -1,0 +1,288 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+    color: #1b1f24;
+}
+
+.hero-section {
+    background: #222497;
+    border-bottom: 1px solid #000000;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.pulling-spanners-title {
+    color: #ffd000;
+    font-weight: 800;
+}
+
+.white-content {
+    background: #ffffff;
+}
+
+.content-card {
+    max-width: 860px;
+    line-height: 1.6;
+    font-size: 1.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content-card p,
+.content-card a,
+.content-card li {
+    font-size: 1.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.content-card h2 {
+    font-size: 1.75rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.content-card .kmc-websites-band {
+    background:
+        linear-gradient(#9a979c10, rgba(0, 0, 0, 0.72)),
+        url("Images/honest.jpg") center 80% / cover no-repeat;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 2rem 1.5rem;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.25rem;
+}
+
+.content-card .kmc-websites-band p {
+    margin: 0;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+.hero-image {
+    border-radius: 0.5rem;
+    box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+}
+
+.sales-intro {
+    max-width: 900px;
+}
+
+.sales-section-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+.sales-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.sales-card {
+    height: 100%;
+    border: 1px solid #d9dee3;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.sales-media {
+    width: 100%;
+    height: auto;
+    max-height: 260px;
+    object-fit: contain;
+    background: #eef2f6;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.sales-card-body {
+    padding: 1.25rem;
+}
+
+.sales-card-body h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.sales-card-body p {
+    margin-bottom: 1rem;
+}
+
+.price-tag {
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: #e9f2ff;
+    color: #0b5394;
+    font-weight: 700;
+}
+
+.sales-card-actions {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.service-panel {
+    border: 1px solid #d9dee3;
+    border-radius: 0.75rem;
+    background: #f8fafc;
+    padding: 1.5rem;
+}
+
+.tier-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.tier-card {
+    border: 1px solid #d9dee3;
+    border-radius: 0.75rem;
+    background: #ffffff;
+    padding: 1.25rem;
+    height: 100%;
+}
+
+.tier-card h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1.05rem;
+}
+
+.tier-card ul {
+    padding-left: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.tier-rate {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    color: #0b5394;
+}
+
+.service-list {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.service-list li + li {
+    margin-top: 0.5rem;
+}
+
+.site-footer {
+    background: #212529;
+    color: #e9ecef;
+}
+
+.footer-nav a {
+    color: #f8f9fa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+    color: #ced4da;
+    text-decoration: underline;
+}
+
+.portal-nav-link {
+    color: #ffd000 !important;
+    font-size: 2em;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        max-width: calc(100% - 64px);
+        white-space: normal;
+        line-height: 1.2;
+        font-size: 0.95rem;
+    }
+
+    .hero-section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .hero-section .display-5 {
+        font-size: 2rem;
+        line-height: 1.15;
+    }
+
+    .hero-section .lead {
+        font-size: 1rem;
+    }
+
+    .white-content {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .content-card,
+    .content-card p,
+    .content-card a,
+    .content-card li,
+    .content-card h2 {
+        font-size: 1.15rem;
+        line-height: 1.65;
+    }
+
+    .sales-section-title {
+        font-size: 1.5rem;
+    }
+
+    .sales-grid,
+    .tier-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sales-media {
+        max-height: 240px;
+    }
+
+    .content-card h2 {
+        font-size: 1.4rem;
+        line-height: 1.25;
+    }
+
+    .img-fluid {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+    }
+
+    .site-footer .container {
+        text-align: center;
+    }
+
+    .footer-nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 0.85rem;
+    }
+
+    .hero-section .display-5 {
+        font-size: 1.7rem;
+    }
+
+    .content-card {
+        font-size: 0.98rem;
+    }
+}
